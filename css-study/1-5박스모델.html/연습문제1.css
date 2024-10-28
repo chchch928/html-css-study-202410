@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 550px;
+    height: auto;
+    border: 1px solid black;
+    border-width: 1px;
+    margin: 70px;
+    
+    
+
+}
+.maintitle{
+    width: 550px;
+    height: auto;
+    border: 1px solid black;
+    border-width: 1px;
+    text-align: center;
+    background: #abcdef;
+    margin: 0;
+    letter-spacing: 5px;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 15px 0;
+
+}
+
+.content1{
+    width: 550px;
+    height: auto;
+    border: 2px solid black;
+    border-bottom: dotted;
+    padding: 10px;
+    border-width: 1px;
+    margin-left: 1px;
+    
+    
+}
+
+.content2{
+    width: 550px;
+    height: auto;
+    border: 2px solid black;
+    border-top: dotted;
+    border-width: 1px;
+    margin-left: 1px;
+    margin-bottom: 1px;
+    
+}

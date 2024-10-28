@@ -1,0 +1,120 @@
+@import url(../common.css);
+body {
+  background: grey;
+}
+#wrapper {
+  margin: 0 30px 20px 30px;
+}
+header h1 {
+  background: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+header h1 span {
+  padding-top: 10px;
+  font-size: 10px;
+}
+header h2 {
+  height: 13px;
+  font-size: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-top: 3px;
+}
+/* =========================== */
+.container.clearfix {
+  display: flex;
+}
+.container.clearfix .side-menu {
+  background: white;
+  width: 30%;
+}
+
+.container.clearfix .side-menu h3 {
+  background: brown;
+  color: white;
+  height: 28px;
+  padding: 8px;
+}
+.container.clearfix .side-menu ul {
+  padding: 10px;
+}
+.container.clearfix .side-menu li {
+  text-decoration: underline;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+.container.clearfix .main-content {
+  padding: 10px;
+  width: 75%;
+  background: lightgray;
+  color: darkblue;
+  font-weight: bold;
+}
+.container.clearfix .main-content .title {
+  padding: 3px;
+  background: darkblue;
+  color: white;
+}
+.container.clearfix .main-content .artist {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container.clearfix .main-content .detail {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.banner {
+  background: white;
+  padding: 15px;
+}
+.banner h3 {
+  line-height: 1.3;
+}
+.banner .all {
+  color: gray;
+  font-weight: bold;
+  line-height: 1.3;
+}
+.banner .love {
+  display: block;
+  color: orange;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.banner strong {
+  font-weight: bold;
+}
+.banner ul.link {
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+.banner .link {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.banner .link a {
+  text-decoration: underline;
+}
+.banner li span {
+  display: block;
+}
+footer {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: darkblue;
+  color: white;
+
+  font-size: 8px;
+}

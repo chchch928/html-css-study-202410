@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 2000px;
+      }
+      .box {
+        width: 550px;
+        height: 350px;
+        border: 4px dashed orange;
+        margin: 250px auto;
+
+        background-image: url("../img/visual1.jpg");
+        /* 이미지 사이즈 조절: 가로 세로*/
+        /* background-size: 150px 100px;
+            */
+        /* 사진에 맞게 액자를 채워라 */
+        /* background-size: contain; */
+
+        /* 일단채우고 모자른 부분은 잘라라 */
+        background-size: cover;
+
+        /* 배경 반복 설정 */
+        background-repeat: no-repeat;
+        background-color: orange;
+
+        /* 배경 위치 조절: 가로 세로 */
+        background-position: center center;
+
+        /*  스크롤을 올려도 배경은 고정적으로 보이게 만드는 것*/
+        background-attachment: fixed;
+
+        /* 단축속성 슬래시 앞이 위치 슬래시 뒤가 사이즈 다른 것들은 순서상관없음*/
+        /* background: no-repeat url('../img/logo.png') red 10px 20px / 100px 200px; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>

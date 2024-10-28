@@ -1,0 +1,110 @@
+@import url("../common.css");
+
+.container {
+  border: 4px double black;
+  height: 500px;
+  width: 1000px;
+}
+.main-title {
+  background: lightgray;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "궁서";
+  padding: 20px;
+  height: 20%;
+}
+.sub-title {
+  height: 10%;
+  background: gray;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-title span {
+  color: yellow;
+  font-size: 22px;
+}
+ul {
+  height: 70%;
+  background: darkgray;
+  display: flex;
+  padding: 10px;
+}
+ul .red {
+  border: 1px white;
+  background: red;
+  margin: 10px;
+}
+/* 이미지마다 크기 다르므로 바로 수정하려고 하면 망가질 수도 있으므로
+이미지 액자를 만들어서 이미지를 넣어라 */
+/* .red-photo{
+    height: 50%;
+    width: 200px;
+   margin: 10px;
+} */
+.red p {
+  font-weight: 500;
+  font-size: 20px;
+}
+ul .purple {
+  border: 1px white;
+  background: plum;
+  margin: 10px;
+}
+.purple p {
+  font-weight: 500;
+  font-size: 20px;
+}
+/* .purple-photo{
+    height: 50%;
+    width: 200px;
+    margin: 10px;
+} */
+ul .orange {
+  border: 1px white;
+  background: orange;
+  margin: 10px;
+}
+.orange p {
+  font-weight: 500;
+  font-size: 20px;
+}
+/* .orange-photo{
+    height: 50%;
+    width: 200px;
+
+    margin: 10px;
+} */
+ul .yellow {
+  border: 1px white;
+  background: yellow;
+  margin: 10px;
+}
+.yellow p {
+  font-weight: 500;
+  font-size: 20px;
+}
+/* .yellow-photo{
+    height: 50%;
+    margin: 10px;
+    width: 200px;
+
+} */
+ul li {
+  width: 25%;
+  padding: 10px;
+}
+ul li .img-box {
+  height: 150px;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+}
+ul li .img-box img {
+  width: 100%;
+}

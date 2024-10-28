@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span.oran{
+            color: orange;
+        }
+        /* span에 있는 oran만 선택하고 싶을 경우 .을 붙여라 */
+
+        li#apple.red{ 
+            background: red;
+        }
+
+        .yellow.low#change.primary{
+            background: orange;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+
+            <li id="apple" class="red">사과</li>
+            <li >포도</li>
+            <li class="oran">오렌지</li>
+            <li class="red">체리</li>
+        </ul>
+<!-- div+p+span -->
+        <div class="yellow low primary" id="change">당근</div>
+        <p class="red" >토마토</p>
+        <span class="oran">오렌지</span>
+    </div>
+
+
+</body>
+</html>

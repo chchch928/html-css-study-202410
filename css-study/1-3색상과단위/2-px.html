@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        div{
+            border:2px solid red;
+        }
+        .root{
+            width: 200px;
+        }
+        .parent{
+            width: 100px;
+        }
+        .child{
+            width: 70px;
+        }
+        /* 픽셀의 단점: 절대단위이므로 전자기기마다 다르게 해석해서 요즘은 잘 사용하지 않는다 */
+
+        
+    </style>
+</head>
+<body>
+    <!-- .root>.parent>.child*2 -->
+    <div class="root">ROOT
+        <div class="parent">PARENT
+            <div class="child">CHILD1</div>
+            <div class="child">CHILD2</div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+h1 {
+    font-style: italic;
+    color: orange;
+    background: aqua;
+}
+
+li { 
+    font-size: 30px;
+    text-decoration: underline;
+}
+/* CSS는 다른 페이지에서도 적용 가능해서 유지보수에 유리*/

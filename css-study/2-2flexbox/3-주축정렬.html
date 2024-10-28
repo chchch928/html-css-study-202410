@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            padding:20px 0;
+            display:flex;
+            /* row: 주축이 가로 x축
+            column: 주축이 세로 y축 */
+            flex-direction: row;
+            /* 주축이 row면 가로 x축을 기준으로 정렬 
+                주축이 column이면 세로 y축을 기준으로 정렬*/
+            justify-content: flex-start;
+            
+
+        }
+        .item{
+            width: 100px;
+            height: 100px;
+            border: 2px solid orange;
+            font-size: 40px;
+            border-radius: 15px;
+            /* item간에 margin이 생기기 때문에 
+             가로배치를 사용할 떄, display: inline-block 사용하면 안된다; */
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+    </div>
+
+
+</body>
+</html>

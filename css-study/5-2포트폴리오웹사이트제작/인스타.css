@@ -1,0 +1,121 @@
+@import url("../common.css");
+
+header .logo {
+  /* position: absolute;
+    top:20;
+    left: 30; */
+  width: 100px;
+}
+header nav {
+  /* logo,search-bar,nav-icons 삼형제를 일직선 상에 놓기 위해서는
+    header nav에 display :flex를 걸면 가능해진다
+    일일히 position:absolute라던지 ,margin을 주는 것보다 더 깔끔한 코딩을 만들어냄 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .logo img {
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+header nav .search-bar input {
+  margin-right: 600px ; 
+  
+  width: 700px;
+  /* height:30px; */
+  border: none;
+  background: rgb(241, 241, 237);
+}
+header nav .nav-icons {
+  text-align: right;
+}
+header nav .nav-icons img {
+  margin-right: 10px;
+}
+main {
+  font-weight: 500;
+  margin-top: 100px;
+}
+main strong {
+  font-weight: 700;
+}
+main .content-container {
+  display: flex;
+}
+main .left-column {
+  margin-left: 250px;
+}
+main .right-column {
+  margin-left: 50px;
+}
+main .post-header {
+  padding-left: 10px;
+  position: relative;
+}
+main .post-user-image {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 30px;
+}
+main .post-header .post-username {
+  position: absolute;
+  top: 15px;
+  left: 60px;
+}
+main .content-container .post-actions {
+  margin-top: 10px;
+}
+main .content-container .post-caption {
+  margin-top: 10px;
+}
+main .right-column .profile-info {
+  width: 300px;
+  display: flex;
+}
+main .right-column .profile-image {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 30px;
+}
+main .right-column .profile-info div {
+  margin-left: 12px;
+  margin-top: 8px;
+}
+.right-column .suggestions {
+  margin-top: 30px;
+}
+.right-column .suggestions h4 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.right-column .suggestion {
+  width: 270px;
+  display: flex;
+}
+.right-column .suggestion div {
+  margin-left: 10px;
+}
+.right-column .suggestion img {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 30px;
+}
+.right-column .suggestion button {
+  background: rgb(27, 129, 224);
+  border: none;
+  border-radius: 7px;
+  height: 28px;
+
+  color: white;
+}
+
+footer ul {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+footer ul li {
+  margin-right: 20px;
+}

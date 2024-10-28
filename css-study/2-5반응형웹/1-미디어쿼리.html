@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 이렇게 할 경우 미디어 사이즈를 조정할 경우에도 
+        배경색이 코랄로 변하지 않는 이유는 div.container로 점수가 더 높기때문에 div를 빼줘야 같은 점수로 반영됨 */
+      div.container {
+        background: lightblue;
+        padding: 20px;
+        font-size: 22px;
+        display: flex;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        background: orange;
+        margin-right: 10px;
+      }
+      @media (max-width: 800px) {
+        .container {
+          background: lightcoral;
+          font-size: 18px;
+          text-decoration: underline;
+        }
+      }
+      @media (max-width: 500px) {
+        .container {
+          flex-direction: column;
+        }
+        .box {
+          width: 100%;
+          margin-bottom: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">박스 1</div>
+      <div class="box">박스 2</div>
+      <div class="box">박스 3</div>
+      <div class="box">박스 4</div>
+      <div class="box">박스 5</div>
+    </div>
+  </body>
+</html>

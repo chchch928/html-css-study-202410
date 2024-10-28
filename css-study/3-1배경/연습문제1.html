@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배경과 그라디언트 연습</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: lightcoral;
+
+        }
+        .box-image{
+            width: 200px;
+            height: 200px;
+            background: url('../img/logo.png');
+            background-size: contain;
+        }
+        .box-linear-gradient{
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(to bottom,yellow,orange);
+        }
+        .box-radial-gradient{
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(ellipse,lightgreen,lightpink);
+        }
+        .box-combined{
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle at top right,rgba(225,225,0,0.5),rgba(225,0,225,0.5)),url('../img/visual1.jpg')
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">기본 배경 색상이 적용된 박스</div>
+    <div class="box-image">배경 이미지가 적용된 박스</div>
+    <div class="box-linear-gradient">선형 그라디언트가 적용된 박스</div>
+    <div class="box-radial-gradient">원형 그라디언트가 적용된 박스</div>
+    <div class="box-combined">이미지와 그라디언트가 함께 적용된 박스</div>
+
+</body>
+</html>

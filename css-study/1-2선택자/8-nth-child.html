@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      /* 첫번째 자식 지정 */
+      #fruits li:first-child {
+        color: red;
+      }
+      /* 마지막 자식 지정 */
+      #fruits li:last-child {
+        color: greenyellow;
+      }
+      /* n번째 자식 지정 */
+      #fruits li:nth-child(4) {
+        color: orange;
+      }
+      /* 홀수번째 과일만 지정 */
+      /* n은 0부터 시작 */
+      #fruits li:nth-child(2n-1) {
+        font-style: italic;
+      }
+      #fruits li:nth-child(odd) {
+        background: red;
+      }
+      /* 짝수번째 과일만 지정 */
+      #fruits li:nth-child(even) {
+        background: aqua;
+      }
+      /* 3번째 목록이후부터 지정 */
+      #fruits li:nth-child(n + 3) {
+        font-size: 24px;
+      }
+      /* nth child 유의사항
+       div:nth-child(3)을 쓸경우 오류발생 태그 안쓰는게 나을수도 */
+      #sports p:nth-child(3) {
+        background: brown;
+      }
+
+      /* 생년월일로 한국나이를 계산
+    2024-year+1=한국나이 
+ */
+    </style>
+  </head>
+  <body>
+    <div id="sports">
+      <div>축구</div>
+      <div>야구</div>
+      <p>농구</p>
+      <div>수영</div>
+      <div>배구</div>
+    </div>
+
+    <!--ul#fruits>li*7 -->
+    <ul id="fruits">
+      <li>딸기</li>
+      <li>망고</li>
+      <li>사과</li>
+      <li>어렌지</li>
+      <li>바나나</li>
+      <li>자몽</li>
+      <li>라임</li>
+    </ul>
+  </body>
+</html>

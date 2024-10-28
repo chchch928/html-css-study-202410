@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+        box-sizing: border-box;
+        font-size: 18px;
+      }
+      div {
+        border: 2px solid blue;
+      }
+      .root {
+        width: 10em;
+        font-size: 30px;
+      }
+      /* em: 폰트크기 대비 
+    기본폰트 사이즈 16px
+    기본 폰트 기준 10em:16*10=160px
+    */
+
+      .parent {
+        font-size: 10px;
+        width: 20em;
+        /* rem은 html태그 폰트크기에 대비하여 변화한다 */
+      }
+      .child {
+        width: 10rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- .root>.parent>.child*2 -->
+    <div class="root">
+      ROOT
+      <div class="parent">
+        PARENT
+        <div class="child">CHILD1</div>
+        <div class="child">CHILD2</div>
+      </div>
+    </div>
+  </body>
+</html>

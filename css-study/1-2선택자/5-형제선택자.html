@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      /* 인접 형제 선택자 */
+      .orange + li {
+        background: orangered;
+      }
+      /* 오렌지 클래스의 귤의 동생인 포도와 오랜지 클래스의 한라봉의 동생인 사과의 배경색이 orangered  */
+
+      li + li {
+        font-size: 10px;
+      }
+      /* li의 형을 갖고 있는 목록들 즉 맨위의 귤빼고 모두 폰트사이즈 변경됨 */
+
+      .red ~ li {
+        background: violet;
+      }
+      /*red 클래스의 형을 갖고 있는 모든 li들의 배경색이 변경됨*/
+
+      /* 그룹선택자 */
+      h1,
+      h2,
+      h3 {
+        color: red;
+      }
+      /* h1,h2,h3의 글씨색이 변경됨 */
+      .apple,
+      section.banana,
+      footer ul#fruit {
+        color: aqua;
+      }
+      /* apple클래스에 속해있는 것과 section에서 banana클래스에 속해있는 것과 
+        footer의 후손 ul의 id가 fruit인 것들의 글자색이 변경됨 */
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li class="orange">귤</li>
+      <li>포도</li>
+      <li>딸기</li>
+      <li class="orange">한라봉</li>
+      <li class="red">사과</li>
+      <li>배</li>
+      <li>감</li>
+    </ul>
+  </body>
+</html>

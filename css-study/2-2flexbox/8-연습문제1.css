@@ -1,0 +1,32 @@
+.container {
+  border: 7px solid palevioletred;
+  padding: 10px;
+  background: pink;
+}
+.main-title {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+  font-size: 40px;
+}
+.bottom {
+  display: flex;
+  height: 250px;
+  font-size: 25px;
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.bottom .greentea {
+  display: flex;
+  background: beige;
+  justify-content: center;
+  margin: 20px;
+}
+.bottom .coffee {
+  background: burlywood;
+  margin: 20px;
+}
+p {
+  margin: 20px;
+}

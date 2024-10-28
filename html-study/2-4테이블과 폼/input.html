@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<form action="#">
+    <input type="text" placeholder="이름을 입력하세요." disabled>
+    <br>
+    <input type="password">
+    <br>
+    <input type="email" value="abc">
+    <br>
+    취미:
+    <label>
+        <input type="checkbox" name="hobby"> 운동 
+      </label>
+  
+      <label>
+        <input type="checkbox" name="hobby" checked> 명상
+      </label>
+      <!-- checked는 미리 체크된 상태로 -->
+      
+      <input id="breathe" type="checkbox" name="hobby"> 
+  
+   <br>
+
+   약관동의:
+   <label><input type="radio"name="agree">예</label>
+   <label><input type="radio" name="agree">아니오</label>
+
+    <br>
+
+    <input type="number" value="0" max="5" min="0">
+
+    <br>
+
+    <input type="range" value="2" max="100" min="0">
+
+    <br>
+
+    <input type="file" multiple accept="image/*">
+    <br>
+
+  <textarea rows="5" cols="10"> </textarea>
+    
+  <br>
+
+  <select>
+    <option>아메리카노</option>
+    <option disabled>카페라떼</option>
+    <option selected>카푸치노</option>
+  </select>
+<!-- selected 먼저 나오는 형식 -->
+    <br>
+
+    <!-- tyype을 설정하지 않으면 submit이 기본 -->
+    <button type="button">확인</button>
+    <button type="submit">전송</button>
+    <button type="reset">초기화</button>
+   
+   
+    
+</form>
+
+</body>
+</html>

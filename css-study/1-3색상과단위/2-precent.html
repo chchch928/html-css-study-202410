@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        div{
+            border:2px solid red;
+        }
+        .root{
+            width:400px;
+        }
+        .parent{
+            width: 50%;
+        }
+        .child{
+            width: 50%;
+        }
+        /* 퍼센트를 사용하여 root의 50% parent, parent의 50%는 child 
+        퍼센트는 상대단위이므로 요즘 유용하게 쓰인다*/
+
+        
+    </style>
+</head>
+<body>
+    <!-- .root>.parent>.child*2 -->
+    <div class="root">ROOT
+        <div class="parent">PARENT
+            <div class="child">CHILD1</div>
+            <div class="child">CHILD2</div>
+        </div>
+    </div>
+
+</body>
+</html>
